@@ -1,0 +1,59 @@
+name: Update Widget Catalog
+
+on:
+  repository_dispatch:
+    types: [widget-release]
+  workflow_dispatch:
+    inputs:
+      widgetId:
+        description: 'Widget ID'
+        required: true
+      version:
+        description: 'Version'
+        required: true
+      downloadUrl:
+        description: 'Download URL'
+        required: true
+      fileSize:
+        description: 'File size in bytes'
+        required: true
+      sha256:
+        description: 'SHA256 hash'
+        required: true
+      changelog:
+        description: 'Changelog'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update catalog
+        env:
+          WIDGET_ID: ${{ github.event.client_payload.widgetId || github.event.inputs.widgetId }}
+          VERSION: ${{ github.event.client_payload.version || github.event.inputs.version }}
+          DOWNLOAD_URL: ${{ github.event.client_payload.downloadUrl || github.event.inputs.downloadUrl }}
+          FILE_SIZE: ${{ github.event.client_payload.fileSize || github.event.inputs.fileSize }}
+          SHA256: ${{ github.event.client_payload.sha256 || github.event.inputs.sha256 }}
+          CHANGELOG: ${{ github.event.client_payload.changelog || github.event.inputs.changelog }}
+        run: node .github/scripts/update-catalog.js
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add widgets.json
+          git diff --cached --quiet || git commit -m "Update ${{ github.event.client_payload.widgetId || github.event.inputs.widgetId }} to v${{ github.event.client_payload.version || github.event.inputs.version }}"
+          git push
