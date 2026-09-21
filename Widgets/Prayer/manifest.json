@@ -1,0 +1,18 @@
+﻿{
+  "id": "prayer",
+  "name": "Prayer Times",
+  "description": "Daily prayer times with next-prayer countdown",
+  "author": "WDesk Team",
+  "version": "1.0.0",
+  "previewEmoji": "🕌",
+  "category": "Islamic",
+  "tags": [ "prayer", "islamic", "time" ],
+  "mainAssembly": "WDesk.dll",
+  "mainType": "WDesk.Widgets.Prayer.PrayerWidget",
+  "minWDeskVersion": "1.0.0",
+  "isPaid": false,
+  "price": 0,
+  "currency": "USD",
+  "official": true,
+  "licenseServerUrl": ""
+}
