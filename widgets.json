@@ -1,26 +1,22 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-21T05:39:48.798Z",
+  "updatedAt": "2026-09-21T06:00:00.000Z",
   "widgets": [
     {
       "id": "prayer",
       "name": "Prayer Times",
       "description": "Daily prayer times with next-prayer countdown",
       "author": "WDesk Team",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "previewEmoji": "🕌",
       "category": "Islamic",
-      "tags": [
-        "prayer",
-        "islamic",
-        "time"
-      ],
-      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Prayer/releases/download/v1.0.1/prayer.zip",
-      "fileSize": 50000,
-      "sha256": "test",
+      "tags": ["prayer", "islamic", "time"],
+      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Prayer/releases/download/v1.0.2/prayer.zip",
+      "fileSize": 0,
+      "sha256": "",
       "minWDeskVersion": "1.0.0",
       "releaseDate": "2026-09-21",
-      "changelog": "Release v1.0.1",
+      "changelog": "Release v1.0.2",
       "official": true,
       "featured": true,
       "isPaid": false,
