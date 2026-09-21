@@ -1,74 +1,52 @@
 {
-<<<<<<< HEAD
-  "version": "1.0.0",
-  "updatedAt": "2026-09-21T06:00:00.000Z",
-=======
   "version": "1.0",
-  "updatedAt": "2026-09-21T17:02:23.738Z",
->>>>>>> 765978634d6aecce2e5f2d02a7ab1f872ff104b9
+  "updatedAt": "2026-09-21T00:00:00Z",
   "widgets": [
+    {
+      "id": "clock",
+      "name": "Clock",
+      "description": "Show time in your zone with a beautiful design.",
+      "author": "WDesk Team",
+      "version": "1.0.0",
+      "previewEmoji": "🕐",
+      "category": "Time",
+      "tags": ["clock", "time", "date"],
+      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Clock/releases/download/v1.0.0/clock.zip",
+      "sha256": "",
+      "fileSize": 0,
+      "minWDeskVersion": "1.0.0",
+      "releaseDate": "2026-09-21",
+      "changelog": "Initial release",
+      "official": true,
+      "featured": true,
+      "isPaid": false,
+      "price": 0,
+      "currency": "USD",
+      "downloads": 0,
+      "rating": 0
+    },
     {
       "id": "prayer",
       "name": "Prayer Times",
-      "description": "Daily prayer times with next-prayer countdown",
+      "description": "Daily prayer times with next-prayer countdown and multiple styles.",
       "author": "WDesk Team",
       "version": "1.0.0",
       "previewEmoji": "🕌",
       "category": "Islamic",
-<<<<<<< HEAD
-      "tags": ["prayer", "islamic", "time"],
+      "tags": ["prayer", "islamic", "time", "salah"],
       "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Prayer/releases/download/v1.0.0/prayer.zip",
-      "fileSize": 0,
       "sha256": "",
+      "fileSize": 0,
       "minWDeskVersion": "1.0.0",
       "releaseDate": "2026-09-21",
-      "changelog": "Release v1.0.0",
-=======
-      "tags": [
-        "prayer",
-        "islamic",
-        "time"
-      ],
-      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Prayer/releases/download/v1.0.0/prayer.zip",
-      "fileSize": 23569,
-      "sha256": "499477d83d71de321c4c2185503fdf9e654745d388c6ef854769cc02cd390135",
-      "minWDeskVersion": "1.0.0",
-      "releaseDate": "2026-09-21",
-      "changelog": "Release v1.0.0",
+      "changelog": "Initial release",
       "official": true,
       "featured": true,
       "isPaid": false,
       "price": 0,
       "currency": "USD",
       "downloads": 0,
-      "rating": 5
-    },
-    {
-      "id": "clock",
-      "name": "Clock",
-      "description": "Digital and analog clock widget",
-      "author": "WDesk Team",
-      "version": "1.0",
-      "previewEmoji": "🕐",
-      "category": "Time",
-      "tags": [
-        "clock",
-        "time"
-      ],
-      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Clock/releases/download/v1.0/clock.zip",
-      "fileSize": 12751,
-      "sha256": "aa597de4fe8f31879e13ae09ebaa7469665626bf5cef859f953f658f04d951a5",
-      "minWDeskVersion": "1.0.0",
-      "releaseDate": "2026-09-21",
-      "changelog": "Release v1.0",
->>>>>>> 765978634d6aecce2e5f2d02a7ab1f872ff104b9
-      "official": true,
-      "featured": true,
-      "isPaid": false,
-      "price": 0,
-      "currency": "USD",
-      "downloads": 0,
-      "rating": 5
+      "rating": 0
     }
   ]
 }
