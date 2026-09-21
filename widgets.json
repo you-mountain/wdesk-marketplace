@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-21T17:02:23.738Z",
+  "updatedAt": "2026-09-21T17:31:53.663Z",
   "widgets": [
     {
       "id": "prayer",
@@ -16,8 +16,8 @@
         "time"
       ],
       "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Prayer/releases/download/v1.0.0/prayer.zip",
-      "fileSize": 23569,
-      "sha256": "499477d83d71de321c4c2185503fdf9e654745d388c6ef854769cc02cd390135",
+      "fileSize": 23563,
+      "sha256": "1174e7c751d419939f83f37f8e163d1dac5ec76de01035dfa382a6ca48efa3ab",
       "minWDeskVersion": "1.0.0",
       "releaseDate": "2026-09-21",
       "changelog": "Release v1.0.0",
