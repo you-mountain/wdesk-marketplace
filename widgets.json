@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-09-21T16:56:56.015Z",
+  "updatedAt": "2026-09-21T17:02:23.738Z",
   "widgets": [
     {
       "id": "prayer",
@@ -34,19 +34,19 @@
       "name": "Clock",
       "description": "Digital and analog clock widget",
       "author": "WDesk Team",
-      "version": "1.0.0",
+      "version": "1.0",
       "previewEmoji": "🕐",
       "category": "Time",
       "tags": [
         "clock",
         "time"
       ],
-      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Clock/releases/download/v1.0.0/clock.zip",
-      "fileSize": 12762,
-      "sha256": "9db247c7ab70e241132c1c5393a58482044e186c2b7470c53130bfcc8f9c2197",
+      "downloadUrl": "https://github.com/you-mountain/WDesk.Widgets.Clock/releases/download/v1.0/clock.zip",
+      "fileSize": 12751,
+      "sha256": "aa597de4fe8f31879e13ae09ebaa7469665626bf5cef859f953f658f04d951a5",
       "minWDeskVersion": "1.0.0",
       "releaseDate": "2026-09-21",
-      "changelog": "Release v1.0.0",
+      "changelog": "Release v1.0",
       "official": true,
       "featured": true,
       "isPaid": false,
