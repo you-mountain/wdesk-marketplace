@@ -1,6 +1,6 @@
 ﻿{
     "version":  "1.0",
-    "updatedAt":  "2026-09-22T09:13:48Z",
+    "updatedAt":  "2026-09-22T09:39:55Z",
     "widgets":  [
                     {
                         "id":  "clock",
@@ -76,6 +76,33 @@
                         "minWDeskVersion":  "1.0.0",
                         "releaseDate":  "2026-09-22",
                         "changelog":  "Initial release",
+                        "official":  true,
+                        "featured":  true,
+                        "isPaid":  false,
+                        "price":  0,
+                        "currency":  "USD",
+                        "downloads":  0,
+                        "rating":  0
+                    },
+                    {
+                        "id":  "music",
+                        "name":  "Music",
+                        "description":  "Music player widget with 3 styles, blur background, full customization",
+                        "author":  "WDesk Team",
+                        "version":  "1.0.0",
+                        "previewEmoji":  "🎵",
+                        "category":  "Music",
+                        "tags":  [
+                                     "music",
+                                     "player",
+                                     "audio"
+                                 ],
+                        "downloadUrl":  "https://github.com/you-mountain/WDesk.Widgets.Music/releases/download/v1.0.0/music.zip",
+                        "sha256":  "",
+                        "fileSize":  0,
+                        "minWDeskVersion":  "1.0.0",
+                        "releaseDate":  "2026-09-22",
+                        "changelog":  "Release v1.0.0",
                         "official":  true,
                         "featured":  true,
                         "isPaid":  false,
