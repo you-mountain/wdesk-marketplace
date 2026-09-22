@@ -1,6 +1,6 @@
 {
     "version":  "1.0",
-    "updatedAt":  "2026-09-22T13:58:02Z",
+    "updatedAt":  "2026-09-22T14:02:02Z",
     "widgets":  [
                     {
                         "id":  "clock",
@@ -8,7 +8,7 @@
                         "description":  "Show time in your zone with a beautiful design.",
                         "author":  "WDesk Team",
                         "version":  "1.0.2",
-                        "previewEmoji":  "ðŸ•",
+                        "previewEmoji":  "Ã°Å¸â€¢Â",
                         "category":  "Time",
                         "tags":  [
                                      "clock",
@@ -35,7 +35,7 @@
                         "description":  "Daily prayer times with next-prayer countdown and multiple styles.",
                         "author":  "WDesk Team",
                         "version":  "1.0.1",
-                        "previewEmoji":  "ðŸ•Œ",
+                        "previewEmoji":  "Ã°Å¸â€¢Å’",
                         "category":  "Islamic",
                         "tags":  [
                                      "prayer",
@@ -63,7 +63,7 @@
                         "description":  "Quick notes on your desktop with auto-save.",
                         "author":  "WDesk Team",
                         "version":  "1.0.0",
-                        "previewEmoji":  "ðŸ“",
+                        "previewEmoji":  "Ã°Å¸â€œÂ",
                         "category":  "Productivity",
                         "tags":  [
                                      "notes",
@@ -90,7 +90,7 @@
                         "description":  "Music player widget with 3 styles, blur background, full customization",
                         "author":  "WDesk Team",
                         "version":  "1.0.1",
-                        "previewEmoji":  "🎵",
+                        "previewEmoji":  "ðŸŽµ",
                         "category":  "Music",
                         "tags":  [
                                      "music",
@@ -117,7 +117,7 @@
                         "description":  "Weather widget for WDesk",
                         "author":  "WDesk Team",
                         "version":  "1.0.0",
-                        "previewEmoji":  "🎨",
+                        "previewEmoji":  "ðŸŽ¨",
                         "category":  "Weather",
                         "tags":  [
                                      "weather"
