@@ -1,6 +1,6 @@
-﻿{
+{
     "version":  "1.0",
-    "updatedAt":  "2026-09-22T13:45:51Z",
+    "updatedAt":  "2026-09-22T13:58:02Z",
     "widgets":  [
                     {
                         "id":  "clock",
@@ -103,6 +103,31 @@
                         "minWDeskVersion":  "1.0.0",
                         "releaseDate":  "2026-09-22",
                         "changelog":  "Release v1.0.0",
+                        "official":  true,
+                        "featured":  true,
+                        "isPaid":  false,
+                        "price":  0,
+                        "currency":  "USD",
+                        "downloads":  0,
+                        "rating":  0
+                    },
+                    {
+                        "id":  "weather",
+                        "name":  "Weather",
+                        "description":  "Weather widget for WDesk",
+                        "author":  "WDesk Team",
+                        "version":  "1.0.0",
+                        "previewEmoji":  "🎨",
+                        "category":  "Weather",
+                        "tags":  [
+                                     "weather"
+                                 ],
+                        "downloadUrl":  "https://github.com/you-mountain/WDesk.Widgets.Weather/releases/download/v1.0.0/weather.zip",
+                        "sha256":  "",
+                        "fileSize":  0,
+                        "minWDeskVersion":  "1.0.0",
+                        "releaseDate":  "2026-09-22",
+                        "changelog":  "Initial release",
                         "official":  true,
                         "featured":  true,
                         "isPaid":  false,
